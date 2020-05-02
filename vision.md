@@ -65,6 +65,9 @@ I'll start experimenting by creating and adding adequate logging a JSON parser u
 
 If that works well, I'll push to incorporate this logging into DMD and evaluate it on a bigger project like that.  I think it can be added incrementally by just logging some events in treevolve format and adding more as necessary.  For example, first adding this to ASTNode constructors/the parse, then adding it to the semantic/optimization passes after that.
 
+## Feedback
+
+Would love to hear feedback.  Are there existing tools that do something similar?  Existing vis reserach on this stuff?  Other applications that involve understanding tree evolution?  
 
 
 
